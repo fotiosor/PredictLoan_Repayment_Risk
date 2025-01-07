@@ -64,11 +64,8 @@ Ce projet vise à développer un modèle de machine learning pour prédire le ri
 - **Notebook dans Jupyter Lab sur GCP** :
   ![JupyterLab GCP](screenshots/JupyterLab_GCP.png)
 
-- **Vidéo YouTube** :
-  [Lien vers la vidéo](https://youtu.be/IpkuGQDhuMY)
 
-## Problèmes rencontrés et solutions envisagées
+## Perspectives
 
-J'ai rencontré des difficultés lors de la gestion des hyperparamètres des modèles à chaque itération, ce qui a rendu difficile la sauvegarde des meilleurs hyperparamètres. Pour résoudre ce problème, j'ai décidé d'organiser les résultats des modèles dans les répertoires `overview_models_results/` et `models/`. Cependant, cela peut être fastidieux à long terme.
 
 La prochaine étape consistera à travailler sur un projet de clustering pour explorer davantage d'autres types de données et utiliser un outil de suivi des expériences tel que MLFlow, qui facilitera la gestion des hyperparamètres et la sauvegarde des modèles. De plus, je prévois de déployer le modèle entraîné en utilisant FlaskAPI et de créer une interface utilisateur conviviale avec Streamlit.
